@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>利用規約 | TikTok投稿管理ツール</title>
+</head>
+<body>
+<style>
+  :root {
+    --bg: #f7f6f2;
+    --surface: #ffffff;
+    --ink: #1b1b18;
+    --ink-muted: #6b6a63;
+    --rule: #e3e1d9;
+    --accent: #3454d1;
+    --accent-soft: #eef1fc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #17181c;
+      --surface: #1e1f24;
+      --ink: #ecebe6;
+      --ink-muted: #9b9a93;
+      --rule: #33343a;
+      --accent: #7c93ff;
+      --accent-soft: #262a3d;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #17181c;
+    --surface: #1e1f24;
+    --ink: #ecebe6;
+    --ink-muted: #9b9a93;
+    --rule: #33343a;
+    --accent: #7c93ff;
+    --accent-soft: #262a3d;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, "Segoe UI", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+    line-height: 1.75;
+  }
+
+  .page {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+
+  .eyebrow {
+    font-size: 0.78rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  h1 {
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Hiragino Mincho ProN", serif;
+    font-size: clamp(1.7rem, 4vw, 2.3rem);
+    line-height: 1.3;
+    margin: 10px 0 6px;
+    text-wrap: balance;
+  }
+
+  .meta {
+    color: var(--ink-muted);
+    font-size: 0.88rem;
+    margin-bottom: 40px;
+  }
+
+  .lede {
+    font-size: 1.02rem;
+    color: var(--ink-muted);
+    border-left: 3px solid var(--accent);
+    padding: 4px 0 4px 18px;
+    margin-bottom: 48px;
+  }
+
+  section {
+    padding: 28px 0;
+    border-top: 1px solid var(--rule);
+  }
+  section:first-of-type { border-top: none; padding-top: 0; }
+
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .section-num {
+    font-family: Georgia, serif;
+    font-variant-numeric: tabular-nums;
+    color: var(--accent);
+    font-size: 0.95rem;
+    background: var(--accent-soft);
+    border-radius: 999px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+  }
+  h2 {
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Hiragino Mincho ProN", serif;
+    font-size: 1.15rem;
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  section p, section ul { margin: 0 0 12px; max-width: 62ch; }
+  section p:last-child, section ul:last-child { margin-bottom: 0; }
+  section ul { padding-left: 1.3em; }
+  section li { margin-bottom: 6px; }
+
+  a { color: var(--accent); }
+
+  .footer-nav {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--rule);
+    font-size: 0.9rem;
+    color: var(--ink-muted);
+  }
+</style>
+
+<div class="page">
+  <div class="eyebrow">Terms of Service</div>
+  <h1>利用規約</h1>
+  <div class="meta">対象アプリ: TikTok投稿管理ツール(個人開発・非公開運用) / 発効日: 2026年8月12日</div>
+
+  <p class="lede">
+    本アプリは、開発者個人が自分自身のTikTokアカウント運用を効率化するために開発した非公開の個人用ツールです。
+    第三者への提供・販売は行っていません。
+  </p>
+
+  <section>
+    <div class="section-head"><span class="section-num">1</span><h2>本サービスについて</h2></div>
+    <p>
+      「TikTok投稿管理ツール」(以下「本アプリ」)は、美容・エンタメジャンルの短編動画をAIで自動生成し、
+      TikTok Content Posting APIを通じて開発者本人のTikTokアカウントに投稿・予約投稿する機能を提供します。
+    </p>
+  </section>
+
+  <section>
+    <div class="section-head"><span class="section-num">2</span><h2>利用者</h2></div>
+    <p>
+      本アプリは開発者個人の利用のみを目的としており、不特定多数のユーザーに提供するサービスではありません。
+      開発者本人のTikTokアカウントのみが接続対象です。
+    </p>
+  </section>
+
+  <section>
+    <div class="section-head"><span class="section-num">3</span><h2>TikTok利用規約の遵守</h2></div>
+    <p>
+      本アプリを通じた投稿はすべてTikTok自体の利用規約・コミュニティガイドラインの範囲内で行われます。
+      本アプリはTikTok公式のContent Posting APIのみを使用し、非公式な自動化・不正なアクセス手段は用いません。
+    </p>
+  </section>
+
+  <section>
+    <div class="section-head"><span class="section-num">4</span><h2>コンテンツについて</h2></div>
+    <p>
+      投稿される動画・キャプション・ハッシュタグはAIにより自動生成されます。開発者はダッシュボード上で
+      投稿前に内容を確認・編集・削除する手段を持ち、生成内容の最終的な公開判断について責任を負います。
+    </p>
+  </section>
+
+  <section>
+    <div class="section-head"><span class="section-num">5</span><h2>免責事項</h2></div>
+    <p>
+      本アプリは開発者個人が自己利用のために作成したものであり、現状有姿(as-is)で提供されます。
+      本アプリの利用により生じたいかなる結果についても、法令上許容される範囲で保証を行いません。
+    </p>
+  </section>
+
+  <section>
+    <div class="section-head"><span class="section-num">6</span><h2>お問い合わせ</h2></div>
+    <p>本規約に関するお問い合わせは <a href="mailto:yabetti111@gmail.com">yabetti111@gmail.com</a> までご連絡ください。</p>
+  </section>
+
+  <div class="footer-nav">
+    関連文書: <a href="https://doudemoee111-sys.github.io/tiktok-scheduler-docs/privacy-policy.html">プライバシーポリシー</a>
+  </div>
+</div>
+
+</body>
+</html>
